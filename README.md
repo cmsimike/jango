@@ -25,7 +25,6 @@ Django people - please don't sue me into hell. I've no problem changing the name
 What is working (mainly for the Undertow Implementation)
 ---------------------
 * Routing
-    * Needs to parse out positional/named args in path.
 * Cookies
     * Reading cookies and setting cookies both work.
 * Headers
@@ -43,9 +42,11 @@ Please note that I never promised any of these were working well. Just well enou
 What is missing for this to be functional
 ---------------------
 * Sessions
+* Need to parse out positional/named args in path.
+* Need to reverse name lookup
 * An ORM
 * Caching
-* Proper Headers, probably
+* Proper headers, probably
 * A rewrite
 * And a lot of other stuff.
 
