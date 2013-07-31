@@ -30,7 +30,7 @@ public abstract class JangoProject
   {
     this.router = new ProjectRouter();
     this.middlewares = new LinkedList<BaseMiddleware>();
-    this.middlewares.add(new RedirectMissingTrailingSlashMiddleware());
+    //this.middlewares.add(new RedirectMissingTrailingSlashMiddleware());
     this.middlewares.add(new ServerErrorMiddleware());
     this.middlewares.add(new NotFoundMiddleware());
     this.installApps(this.getConfiguration());
